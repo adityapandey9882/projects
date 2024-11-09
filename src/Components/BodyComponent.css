@@ -1,0 +1,84 @@
+/* src/components/BodyComponent.css */
+
+/* Body Container */
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    background-image: url('https://via.placeholder.com/1500x900');
+    border: 1px solid red;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    text-align: center; 
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+
+  .ImageComponent{
+    background-image: url;
+  }
+  
+  /* Content Section */
+  .content {
+    max-width: 800px; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
+    border-radius: 10px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Heading */
+  .content h1 {
+    font-size: 3rem; /* Large text */
+    font-weight: bold;
+    margin-bottom: 20px; /* Space below the title */
+    text-transform: uppercase; /* Make title uppercase */
+  }
+  
+  /* Paragraph */
+  .content p {
+    font-size: 1.2rem; /* Slightly larger text for the paragraph */
+    margin-bottom: 30px; /* Space below the paragraph */
+    line-height: 1.6; /* Make the text more readable */
+  }
+  
+  /* CTA Button */
+  .cta-btn {
+    background-color: #50c2d1; /* Light blue color */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .cta-btn:hover {
+    background-color: #4a90e2; /* Darker blue color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      padding: 15px;
+      max-width: 90%; /* Make content width responsive */
+    }
+  
+    .content h1 {
+      font-size: 2rem; /* Reduce font size of the heading on small screens */
+    }
+  
+    .content p {
+      font-size: 1rem; /* Adjust paragraph font size */
+    }
+  
+    .cta-btn {
+      font-size: 1rem; /* Make button font size smaller on mobile */
+      padding: 10px 25px; /* Adjust button size */
+    }
+  }
+  
